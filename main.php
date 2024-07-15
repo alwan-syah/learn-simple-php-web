@@ -14,3 +14,7 @@
 </div>
 <!-- batas bawah bootstrap -->
 </div>
+
+<!-- terkait fungsi dan query ada di model -->
+ <!-- prosesing di controller -->
+  <!-- tampilan itu folder view atau dalam project ini langsung dibawah project -->

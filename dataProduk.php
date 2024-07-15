@@ -10,6 +10,7 @@ $object = new Produk();
 $rs = $object->dataProduk();
 ?>
 <h3>Data Produk</h3>
+<a href="index.php?hal=formProduk" class="btn btn-primary">Tambah</a>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -29,13 +30,13 @@ $rs = $object->dataProduk();
 
         ?>
             <tr>
-                <td><?= $no?></td>
-                <td><?= $produk['kode']?></td>
-                <td><?= $produk['nama']?></td>
-                <td><?= $produk['harga']?></td>
-                <td><?= $produk['stok']?></td>
-                <td><?= $produk['stok']?></td>
-                <td><?= $produk['kategori']?></td>
+                <td><?= $no ?></td>
+                <td><?= $produk['kode'] ?></td>
+                <td><?= $produk['nama'] ?></td>
+                <td><?= $produk['harga'] ?></td>
+                <td><?= $produk['stok'] ?></td>
+                <td><?= $produk['stok'] ?></td>
+                <td><?= $produk['kategori'] ?></td>
             </tr>
         <?php $no++;
         } ?>
